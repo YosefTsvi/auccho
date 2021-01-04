@@ -1,0 +1,90 @@
+body {
+    font-size: 15px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(142,40,0);
+}
+
+h2 {
+    clear: both;
+    font-size: 1.75em;
+    color: rgb(182,73,38);
+    border-bottom: 1px solid  rgb(255,176,59);
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(70,137,102);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(70,137,102);
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color:rgb(255,240,165);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255,240,165);
+    color: rgb(70,137,102);
+}
+
+main section Div {
+    float: right;
+    width: 29%;
+    padding: 2%;
+}
+figure {
+    margin: 0;
+    clear: both;
+}
+div figure img {
+    height: 100px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.תוכןראשי {
+    display: block;
+    width: 70%;
+    box-sizing: border-box;
+    float: right;
+}
+
+.רבימכר {
+    float: right;
+    width: 27%;
+    box-sizing: margin-box;
+    margin-right: 3%;
+}
+.רבימכר Div {
+    float: right;
+    width: 80%;
+    padding: 2%;
+}
