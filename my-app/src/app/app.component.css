@@ -1,0 +1,22 @@
+h1 {
+    padding: 15px;
+    border-bottom: solid 0.5px;
+    margin: 10px 15%;
+} 
+/*li {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: chartreuse;
+    border: solid 0.1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 10px;
+}*/
+li {
+    border: royalblue solid 1px;
+}
+li:hover {
+    background-color: rgb(38, 214, 245);
+    margin: 5px;
+}

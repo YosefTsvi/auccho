@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let car of cars">
+        <button (click)="loadCar(car.id)">{{car.model}}</button>
+    </li>
+</ul>
+    
+<router-outlet></router-outlet>

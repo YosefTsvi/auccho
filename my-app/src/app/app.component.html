@@ -1,2 +1,30 @@
-<app-comp-one></app-comp-one>
-<app-comp-two></app-comp-two>
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <a class="navbar-brand" href="#"> מכוניות יוקרה - שיווק עילי </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/']" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}"> בית </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/move']" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}"> להיט הכדור </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/cars']" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}"> דגמים </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/cars','car']" routerLinkActive="active"> הוסף דגם </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
+

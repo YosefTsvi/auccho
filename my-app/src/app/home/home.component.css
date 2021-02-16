@@ -1,0 +1,15 @@
+h3 {
+    float: right;
+    width: 30%;
+    text-align: center;
+    border: orange 5px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+input {
+    direction: rtl;
+    margin-left: 70%;
+}
+.top {
+    margin-top: 70%;
+}
